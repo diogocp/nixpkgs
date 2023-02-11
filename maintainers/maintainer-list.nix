@@ -4271,6 +4271,11 @@
     githubId = 32810399;
     name = "Diffumist";
   };
+  diogocp = {
+    name = "Diogo Pereira";
+    github = "diogocp";
+    githubId = 6563869;
+  };
   diogox = {
     name = "Diogo Xavier";
     github = "diogox";
