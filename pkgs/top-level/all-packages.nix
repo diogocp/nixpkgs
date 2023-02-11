@@ -41788,4 +41788,6 @@ with pkgs;
   gitrs = callPackage ../tools/misc/gitrs { };
 
   wttrbar = callPackage ../applications/misc/wttrbar { };
+
+  rsgain= callPackage ../applications/audio/rsgain { };
 }
