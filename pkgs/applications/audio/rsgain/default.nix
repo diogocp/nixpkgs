@@ -13,11 +13,11 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "rsgain";
-  version = "3.2";
+  version = "3.3";
 
   src = fetchurl {
     url = "https://github.com/complexlogic/rsgain/releases/download/v${finalAttrs.version}/rsgain-${finalAttrs.version}-source.tar.xz";
-    sha256 = "sha256-F50KEyvMjWTjVO9BSVQJ1Reysi/svqZGcuL83+bf49Q=";
+    sha256 = "sha256-4et5k7iq+tHVffkO2S7EyQKISTOXbpFASKh3CNmPs3w=";
   };
 
   nativeBuildInputs = [ cmake pkgconfig ];
